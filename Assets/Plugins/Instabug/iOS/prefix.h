@@ -1,13 +1,14 @@
 //
 // Copied directly from Classes/Prefix.pch
 //
+#include "Preprocessor.h"
 
 #ifdef __OBJC__
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #endif
 
-#include "Preprocessor.h"
+
 #include "UnityTrampolineConfigure.h"
 #include "UnityInterface.h"
 
